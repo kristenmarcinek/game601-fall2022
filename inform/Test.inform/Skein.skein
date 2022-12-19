@@ -1,9 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-6">
+<Skein rootNode="node-1">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-6">
+  <item nodeId="node-1">
     <command xml:space="preserve">Test</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">Test&#x000A;An Interactive Fiction by Kristen&#x000A;Release 1 / Serial number 221218 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Hallway&#x000A;You are on the ground floor of the mall, exploring. You see the food court in front of you to the North and some stores around you.&#x000A;&#x000A;You can see Auntie Anne's door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-22"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-9"/>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">examine hallway</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">turn east</command>
+    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Sears&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hallway&#x000A;You are on the ground floor of the mall, exploring. You see the food court in front of you to the North and some stores around you.&#x000A;&#x000A;You can see Auntie Anne's door here.&#x000A;&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Justice&#x000A;You've never seen an abandoned store with so many clothes! Justice has remained pristine despite years of going untouched. Maybe it's all the sparkles? Justice is next to Brooks Brothers.&#x000A;&#x000A;You can see a clothes rack (in which is a jacket (on which is a jacket pocket (empty))) here.&#x000A;&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening Auntie Anne's door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Forever 21&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Justice&#x000A;You've never seen an abandoned store with so many clothes! Justice has remained pristine despite years of going untouched. Maybe it's all the sparkles? Justice is next to Brooks Brothers.&#x000A;&#x000A;You can see a clothes rack (in which is a jacket) here.&#x000A;&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">examine clothes rack</command>
+    <result xml:space="preserve">In the clothes rack is a jacket.&#x000A;&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">go to Auntie Anne's</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">open auntie anne's door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;There are 30 minutes to escape!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hallway&#x000A;You are on the ground floor of the mall, exploring. You see the food court in front of you to the North and some stores around you.&#x000A;&#x000A;You can see Auntie Anne's door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">Go north</command>
+    <result xml:space="preserve">(first opening Auntie Anne's door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">Go south</command>
+    <result xml:space="preserve">Justice&#x000A;You've never seen an abandoned store with so many clothes! Justice has remained pristine despite years of going untouched. Maybe it's all the sparkles? Justice is next to Brooks Brothers.&#x000A;&#x000A;You can see a clothes rack (in which is a jacket) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">take jacket</command>
+    <result xml:space="preserve">(the jacket)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">look at jacket</command>
+    <result xml:space="preserve">(the jacket)&#x000A;You see nothing special about the jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">inspect jacket</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">jacket pocket</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">open jacket pocket</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">look at jacket pocket</command>
+    <result xml:space="preserve">In the jacket pocket is a receipt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
